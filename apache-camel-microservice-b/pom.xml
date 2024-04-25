@@ -35,6 +35,12 @@
 			<artifactId>camel-activemq-starter</artifactId>
 			<version>4.5.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-kafka-starter</artifactId>
+			<version>4.5.0</version>
+		</dependency>
+		
 		<!-- Usage Serailize/Deserailize from/to JSON format-->
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
