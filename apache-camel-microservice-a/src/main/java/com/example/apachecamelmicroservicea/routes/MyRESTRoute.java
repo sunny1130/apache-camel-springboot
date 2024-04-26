@@ -17,7 +17,7 @@ public class MyRESTRoute extends RouteBuilder{
 		
 		restConfiguration().host("localhost").port(8081);
 		
-		from("timer:rest-timer?period=10000")
+		from("timer:rest-timer?period=100000")
 		.to("direct:consolelog")
 		.choice()
 			.when(method(deciderBean,"checknull"))
