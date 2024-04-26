@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import com.example.apachecamelmicroserviceb.beans.MyTest;
 
-@Component
+//@Component
 public class MyKafkaJSONReceiverRoute extends RouteBuilder{
 
 	@Autowired Header header;

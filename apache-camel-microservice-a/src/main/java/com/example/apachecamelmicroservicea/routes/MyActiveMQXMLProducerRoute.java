@@ -2,7 +2,7 @@ package com.example.apachecamelmicroservicea.routes;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MyActiveMQXMLProducerRoute  extends RouteBuilder {
 
 	@Override

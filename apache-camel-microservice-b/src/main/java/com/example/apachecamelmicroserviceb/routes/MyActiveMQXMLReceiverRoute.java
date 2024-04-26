@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.example.apachecamelmicroserviceb.beans.MyTest;
 
-@Component
+//@Component
 public class MyActiveMQXMLReceiverRoute extends RouteBuilder {
 	
 	@Autowired Header header;
